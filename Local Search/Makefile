@@ -4,7 +4,7 @@ CXX = g++ -I ~/lib/include
 LDFLAGS = -Wall # -ljpeg -lSDLmain -lSDL -lSDL_image -lSDL_ttf -pthread -lGLEW -lGLU \
 	      # -lGL -lrt -lXrandr -lXxf86vm -lXi -lXinerama -lX11 -lboost_program_options \
           # -Wl,-rpath=~/lib -L ~/lib 
-CFLAGS = -c -g -O3 -Wall -std=c++11
+CFLAGS = -c -g -O3 -Wall -std=c++0x
 ODIR = build
 TDIR = unitTests
 SRCS = tsp_solver.cpp
